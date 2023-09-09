@@ -1,0 +1,62 @@
+css
+/* vedio mac */
+.macvedio{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+.macvedio>#background-video {
+    /* width: 100vw;
+    height: 100vh; */
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+  }
+
+.macvedio>h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  
+.macvedio>h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.macvedio>h2 { font-size: 3rem;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.macvedio>video{
+    height: auto;
+    width: 100%;
+}
+
+html
+<!-- adding border into prpl and vedio -->
+    <!-- adding vedio -->
+    <div class="macvideo">
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="vedio/vediomac.mp4" type="video/mp4">
+        </video>
+        <h1>THIS IS A RIVER.</h1>
+        <h2>How majestic.</h2>
+    </div> 

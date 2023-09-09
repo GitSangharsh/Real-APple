@@ -1,0 +1,327 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu{    
+    position: sticky;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(0,0,0,0.8);
+    padding: 10px;
+    grid-template-rows:auto auto auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 20px;
+    padding-bottom: 20px;
+}
+
+.menu>li{
+
+    list-style: none;
+    color: grey;
+    padding-left: 24%;
+    height: 20px;
+}
+
+/* Changing the color of hyper link */
+li>a{
+    color: rgb(149, 147, 147);
+    text-decoration: none; 
+    font-size: 12px;
+    transition: 0.3s;   
+}
+li>a:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 18px;     
+}
+/* image under caption */
+.caption>img{
+    border: 2px solid grey;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    min-height: 100px;
+    max-height: 800px;
+}
+
+/* main ipn */
+.ipn{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+/* caption iphone */
+.ipn>h1{
+    font-family: 'Bangers', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 3vh 3vw;
+    margin-bottom: -30px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.ipn>h1:hover{
+    font-weight: bolder;
+    color: #0c112a;
+    transition-duration: 3s;
+}
+.ipn>h5{
+    text-align: center;
+    color: gray;
+    padding-bottom: -2%;    
+    margin-bottom: -20px;    
+    cursor: default;
+}
+.ipn>h4{
+    text-align: center;
+}
+
+h4>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* mac vedio */
+.prpl{
+    /* min-height: 650px;
+    max-height: 701px; */
+    background-color: #0c112a;
+    padding-top: 50px;
+    padding-bottom: 2.5vh;
+}
+
+.prpl>img{
+    border: 2px solid grey;
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.prpl>h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10vw;
+    padding-bottom: -1%;    
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.prpl>h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.prpl:hover{
+    cursor: default;
+}
+
+
+.haha{
+    text-align: center;
+}
+h3>a{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* brdar */
+
+/* watch 0000000000000000000000000000000000 */
+.watch{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #0c112a;
+}
+.watch:hover{
+    cursor: default;
+}
+.watch>h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10vw;
+    padding-bottom: -1%;    
+    margin-bottom: -35px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.watch>h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+.watch>img{
+    border: 2px solid grey;
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Threee 3  imagessss */
+/* horiiiiiiiiiiii two 2 imageeeeesssss */
+
+.wwrap{
+    padding-top: 1vh;
+    background-color: grey;
+    padding-bottom: 1vh;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  /* padding: 5px; */
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*  */
+.show{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.w3-button{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid grey;
+    padding: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.w3-display-right{
+    margin-top: 10px;
+}
+.w3-display-left{
+    margin-top: 30px;
+}
+
+/* .show{
+    position: relative;
+}
+.w3-display-left { 
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid grey;
+    bottom: 210px;
+}
+
+.w3-display-right{
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    bottom: 210px;
+} */
+.mySlides {display:none;}
+.show>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* border: 2px solid gray;
+    border-radius: 90px; */
+    margin-top: 2vh;
+
+}
+
+/* animationnnnnnnnnnn */
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+
+  }
+  
+.animate__animated.animate__fadeOut {
+    --animate-duration: 15s;
+    animation-delay: 5s;
+}
+
+/* reference */
+.alll{
+    column-count: 6;
+    cursor: default;
+    font-size: 2.5vh;
+    column-width: 20vh;
+}
+li>a{
+    font-size: 1.6vh;
+}
+.ref{
+    padding-top: 1px;
+}
+li>h4{
+    margin: 0;
+}
+
+ul>li{
+   list-style: none; 
+}
+
+/* serice */
+.service{
+    padding-top: 1px;
+}
+.service>li{
+    list-style: none;
+}
+
+/* apple store */
+.AppleStor{
+    padding-top: 1px;
+}
+/* apple values */
+.Appleval{
+    padding-top: 1px;
+}
+/* about apple */
+.Aboutapple{
+    padding-top: 1px;
+}
+/* Account */
+.Account{
+    padding-top: 1px;
+}
+.know>ul{
+    list-style: none;
+    text-align: center;  
+}
+
+ul>a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bolder;
+}
+
+ul>a:hover{
+    /* text-decoration: underline; */
+    transition-duration: 3s;
+    color: black;
+}

@@ -1,0 +1,461 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+.menu{
+    position: sticky;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color:rgba(0,0,0,0.8);
+    padding: 10px;
+    grid-template-rows:auto auto auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 20px;
+    padding-bottom: 20px;
+}
+
+.menu>li{
+
+    list-style: none;
+    color: grey;
+    padding-left: 24%;
+    height: 20px;
+}
+
+/* Changing the color of hyper link */
+li>a{
+    color: rgb(149, 147, 147);
+    text-decoration: none; 
+    font-size: 12px;
+    transition: 0.3s;   
+}
+li>a:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 18px;     
+}
+
+/* order */
+
+.order{
+    background-color: #f5f5f7;    
+    border: 2px solid #f5f5f7;
+    height: 5vh;
+}
+.order>h6{
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: grey;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h6>a{
+    text-decoration: none;
+    color: #0066cc;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+/* first img */
+.firstimg{
+    background-color: #FFFFFF;
+    text-align: center;
+    cursor: default;
+}
+.firstimg>h6{
+    margin: 0px;
+    margin-top: 2vh;
+    color: grey;
+    font-size: 1.6vw;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.firstimg>h3{
+    margin: 0;
+    color: rgb(59, 56, 56);
+    font-weight: bolder;
+    font-size: 2.3vw;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 3s;
+}
+
+.firstimg>h3{
+    scale: 1.1;
+}
+.firstimg>h1{
+    font-size: 5vw;
+    background: -webkit-linear-gradient(skyblue, rgb(195, 24, 53));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.firstimg>h4{
+    margin: 0px;
+    color: grey;
+    font-size: 2vw;
+}
+
+.firstimg>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50vw ;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
+    padding-bottom: 5vh;
+}
+
+/* btn */
+.btn{
+    text-align: center;
+    padding: 2vh;
+}
+
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+}
+/* border */
+.borderr{
+    background-color: grey;
+    height: 2vh;
+}
+
+/* second img */
+.secondimg{
+    padding-top: 2vh;
+    padding-bottom: 2vh; 
+    text-align: center;
+}
+.secondimg>h4{
+    color: #333;
+    margin: 0;
+    font-size: 2.3vw;
+    padding-bottom: 2vh;     
+}
+.secondimg>h1{
+    color: #005ab3;
+    font-size: 5vw;
+    margin: 0;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.secondimg>h3{
+    color: #333;
+    margin-bottom: 1vh;
+    font-size: 2.5vw;
+}
+.secondimg>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border: 2px solid #FFFFFF;
+    border-radius: 80px;
+}
+.btn2{
+    text-align: center;
+    padding: 2vh;
+}
+
+/* thumbnail */
+.thumbnail>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 2px solid #FFFFFF;
+    border-radius: 70px;
+}
+.btn3{
+    text-align: center;
+    padding: 2vh;
+}
+
+/* iphone sec 1 */
+.iphoneSec>h1{
+    padding-top: 0;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: 1D1D1F;
+    font-style: normal;
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.mainiphoneSec{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.iphoneSec1>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    
+}
+.iphoneSec1>h1{
+    text-align: center;
+    margin: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+    
+}
+
+.iphoneSec1>h2{
+    text-align: center;
+    margin: 1vh;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    color: #1d1d1f;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+.iphoneSec2>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+.iphoneSec2>h1{
+    text-align: center;
+    margin: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+}
+.iphoneSec2>h2{
+    text-align: center;
+    margin: 1vh;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    color: #1d1d1f;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+.iphoneSec3>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+.iphoneSec3>h1{
+    text-align: center;
+    margin: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+}
+.iphoneSec3>h2{
+    text-align: center;
+    margin: 1vh;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    color: #1d1d1f;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+
+.btn4{
+    text-align: center;
+    padding: 2vh;
+}
+.btn5{
+    text-align: center;
+    padding: 2vh;
+}.btn6{
+    text-align: center;
+    padding: 2vh;
+} 
+
+h6{
+    text-align: center;
+    margin: 0;
+}
+.sun{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.sun>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    
+}
+
+
+/* accessories */
+.acc-wrap{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding-bottom: 1vw;
+}
+.acc-wrap>h1{
+    color: #1d1d1f;
+    font-size: 4vw;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(143, 143, 143);
+
+}
+
+.acc-main{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 5vh;
+    
+}
+.acc1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border: 2px solid gray;
+    padding-bottom: 1vh;
+    border-radius: 50px;
+    
+}
+
+.acc1>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%; 
+}
+
+
+.acc2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border: 2px solid gray;
+    padding-bottom: 1vh;
+    border-radius: 50px;
+}
+
+.acc2>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.acc3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border: 2px solid gray;
+    padding-bottom: 1vh;
+    border-radius: 50px;
+}
+
+.acc3>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+
+/* paid service */
+.alll{
+    column-count: 6;
+    cursor: default;
+    font-size: 2.5vh;
+    column-width: 20vh;
+    border-top: 1vh solid grey;
+}
+li>a{
+    font-size: 1.6vh;
+}
+.ref{
+    padding-top: 1px;
+}
+li>h4{
+    margin: 0;
+}
+
+ul>li{
+   list-style: none; 
+}
+
+/* serice */
+.service{
+    padding-top: 1px;
+}
+.service>li{
+    list-style: none;
+}
+
+/* apple store */
+.AppleStor{
+    padding-top: 1px;
+}
+/* apple values */
+.Appleval{
+    padding-top: 1px;
+}
+/* about apple */
+.Aboutapple{
+    padding-top: 1px;
+}
+/* Account */
+.Account{
+    padding-top: 1px;
+}
+.know>ul{
+    list-style: none;
+    text-align: center;  
+}
+
+ul>a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bolder;
+}
+
+ul>a:hover{
+    /* text-decoration: underline; */
+    transition-duration: 3s;
+    color: black;
+}

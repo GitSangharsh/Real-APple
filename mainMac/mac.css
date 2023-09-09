@@ -1,0 +1,601 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+.menu{
+    position: sticky;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgba(0,0,0,0.8);
+    padding: 10px;
+    grid-template-rows:auto auto auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 20px;
+    padding-bottom: 20px;
+}
+
+.menu>li{
+
+    list-style: none;
+    color: grey;
+    padding-left: 24%;
+    height: 20px;
+}
+
+/* Changing the color of hyper link */
+li>a{
+    color: rgb(149, 147, 147);
+    text-decoration: none; 
+    font-size: 12px;
+    transition: 0.3s;   
+}
+li>a:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 18px;     
+    text-shadow: 2px 2px 4px #000000; 
+
+}
+
+/* order */
+.order{
+    background-color: #f5f5f7;    
+    border: 2px solid #f5f5f7;
+    height: 5vh;
+}
+.order>h6{
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: grey;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h6>a{
+    text-decoration: none;
+    color: #0066cc;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* screen img1 */
+
+.main-screen1{
+    padding-top: 5vh;  
+    border-bottom: 1vh solid whitesmoke;
+}
+
+.main-screen1>h4{
+    text-align: center;
+    color: #f56300;
+    margin: 0;
+    padding-top: 1vh;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    background: rgba(0,0,0,0);
+    border-color: #bf4800;
+    color: #f56300;
+    font-size: 1vmin 5vmax;
+}
+
+.main-screen1>h1{
+    text-align: center;
+    color: #1d1d1f;
+    margin: 0;
+    font-size: 7vw;
+    text-shadow: 2px 2px 4px #000000;  
+}
+
+.main-screen1>h3{
+    text-align: center;
+    color: #1d1d1f;
+    margin: 0;
+    font-size: 4vw;
+    text-shadow: 2px 2px 4px #000000;  
+}
+.main-screen1>h6{
+    text-align: center;
+    color: grey;
+    margin: 0;
+    font-size: 2.2vw;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-bottom: 2vw;
+}
+
+/* button */
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px #fffdfd88);
+}
+
+
+.main-screen1>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 5vh;
+    /* border: 1.5px solid rgb(97, 95, 95);
+    border-right: none;
+    border-bottom: none; */
+    transition-duration: .3s;
+}
+
+.main-screen1>img:hover{
+    filter: drop-shadow(20px 20px 4px rgb(0, 0, 0));
+    scale: 1.1;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/* screen img2 */
+.main-screen2{ 
+    border-bottom: 2vh solid grey;
+    background-color: #000000;
+    color: red;
+}
+.main-screen2>h4{
+    text-align: center;
+    color: #f56300;
+    margin: 0;
+    padding-top: 10vh;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    background: rgba(0,0,0,0);
+    border-color: #bf4800;
+    color: #f56300;
+    font-size: 1vmin 5vmax;
+}
+
+.main-screen2>h1{
+    text-align: center;
+    color: #f5f5f7;
+    margin: 0;
+    font-size: 7vw;
+    text-shadow: 2px 2px 4px #000000;  
+}
+
+.main-screen2>h3{
+    text-align: center;
+    color: #f5f5f7;
+    margin: 0;
+    font-size: 4vw;
+    text-shadow: 2px 2px 4px #000000;  
+}
+.main-screen2>h6{
+    text-align: center;
+    color: #f5f5f7;
+    margin: 0;
+    font-size: 2.2vw;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-bottom: 2vw;
+}
+
+/* button */
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px #fffdfd88);
+}
+
+.main-screen2>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* border: 1.5px solid rgb(97, 95, 95);
+    border-right: none;
+    border-bottom: none; */
+}
+/* mac comparison */
+.main-mac-comp{
+    background-color: whitesmoke;
+    border-bottom: 2px solid grey;
+    padding-bottom: 2vw;
+}
+.wrap-mac{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    align-content: center; */
+}
+
+.main-mac-comp>h1{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; 
+    text-align: center;
+    font-style: none;
+    font-weight: 600;
+    padding-top: 5vw;
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+
+.wrap-mac-img1>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.wrap-mac-img1>h1{
+    padding-top: 0;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: 1D1D1F;
+    font-style: normal;
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+}
+
+.wrap-mac-img1>h2{
+    text-align: center;
+    margin: 1vh;
+    font-style: normal;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+    padding-bottom: 1.2vw;
+}
+
+.wrap-mac-img1>h3{
+    text-align: center;
+    font-style: normal;
+    color: #383839;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px black);
+}
+
+.wrap-mac-img2>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.wrap-mac-img2>h1{
+    padding-top: 0;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: 1D1D1F;
+    font-style: normal;
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+}
+
+.wrap-mac-img2>h2{
+    text-align: center;
+    margin: 1vh;
+    font-style: normal;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+    padding-bottom: 1vw;
+}
+
+.wrap-mac-img2>h3{
+    text-align: center;
+    font-style: normal;
+    color: #383839;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+.btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px black);
+}
+
+.wrap-mac-img3>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.wrap-mac-img3>h1{
+    padding-top: 0;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: 1D1D1F;
+    font-style: normal;
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+}
+
+.wrap-mac-img3>h2{
+    text-align: center;
+    margin: 1vh;
+    font-style: normal;
+    color: whitesmoke;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+.wrap-mac-img3>h3{
+    text-align: center;
+    font-style: normal;
+    color: #383839;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+    padding-bottom: 1vw;
+}
+.btn4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2.5vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px black);
+}
+
+.wrap-mac-img4>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 2.2vw;
+
+}
+.wrap-mac-img4>h1{
+    padding-top: 0;
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: 1D1D1F;
+    font-style: normal;
+    font-size: 3.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-weight: bolder;
+    font-size: 2.2vw ;
+    padding-bottom: 3.7vw;
+}
+
+.wrap-mac-img4>h2{
+    text-align: center;
+    margin: 1vh;
+    font-style: normal;
+    color: #1d1d1f;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+}
+
+.wrap-mac-img4>h3{
+    text-align: center;
+    font-style: normal;
+    color: #383839;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-size: 1.9vw ;
+    padding-bottom: 1vw;
+}
+.btn5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 2vh ;    
+}
+a>button{
+    size: 5vh;
+    border: 2px solid #0071E3;
+    border-radius: 80px;
+    background-color: #0071E3;
+    color: whitesmoke;
+    font-size: 1vw;
+    transition: 0.3s;   
+
+}
+a>button:hover{
+    scale: 1.1;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    filter: drop-shadow(10px 10px 2px black);
+}
+
+.from{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    font-size: 1vw;
+    color: grey;
+}
+
+.wrap-btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+/* features or a function */
+.key-start{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; */
+}
+/* 
+.key1{
+    display: ;
+} */
+
+.fun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+}
+
+.fun1{
+    background-position: center;
+    background-image: url(../mainMac/MainMacImage/m1chip.png);
+    background-repeat: no-repeat;
+}
+
+.fun2{
+    background-image: url(../mainMac/MainMacImage/m2chiip.png);
+    background-position: center;
+}
+.fun3{
+    background-image: url(../mainMac/MainMacImage/m2chiip.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fun4{
+    background-image: url(../mainMac/MainMacImage/m3chip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fun>p{
+    padding-top: 5vw;
+    font-size: 1vw;
+    margin: 0;
+}
